@@ -42,7 +42,7 @@ document.getElementById('withdraw-button').addEventListener('click', function(){
 const balanceTotal = document.getElementById('balance-total');
 const previousBalanceText = balanceTotal.innerText;
 const previousBalanceTotal = parseFloat(previousBalanceText);
-const newBalanceTotal = previousBalanceTotal - WithdrawAmount;
+const newBalanceTotal = previousBalanceTotal - withdrawAmount;
 balanceTotal.innerText = newBalanceTotal;
 
 })
